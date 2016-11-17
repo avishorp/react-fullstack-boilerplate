@@ -5,6 +5,7 @@
   "main": "src/server",
   "scripts": {
     "start": "node src/server",
+    "lint": "eslint src/client/index.jsx",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -27,6 +28,8 @@
     "babel-preset-react": "^6.16.0",
     "babel-preset-react-hmre": "^1.1.1",
     "babel-preset-stage-0": "^6.16.0",
+    "eslint": "^3.10.2",
+    "eslint-plugin-react": "^6.7.1",
     "html-webpack-plugin": "^2.24.1",
     "stats-webpack-plugin": "^0.4.2",
     "style-loader": "^0.13.1",
